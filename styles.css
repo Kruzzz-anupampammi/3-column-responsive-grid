@@ -1,0 +1,154 @@
+body {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .container {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+   }
+  
+   .box {
+    margin: 0 auto;
+    height: 500px;
+    position: relative;
+     border: 2px solid gray; 
+    width: 100%;
+    /* border-radius: 5%; */
+   }
+
+        /* FIRST COLUMN BOX */
+
+   #box1 {
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+    background-color: #E18525;
+   }
+
+   #sedan {
+    padding-top: 20%;
+    padding-left: 20%;
+   }
+
+   #sedan-txt {
+    font-family: 'Big Shoulders Display', cursive;
+    padding-top: 10%;
+    padding-left: 20%;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+   }
+
+   #sedan-para {
+    color: white;
+    text-align: left;
+    padding-top: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+   }
+
+   #sedan-btn {
+    color: #E18525;
+    border-radius: 30px;
+    width: 35%;
+    padding: 3%;
+    margin: 5% 20%;
+   }
+
+   #sedan-btn:hover{
+    background-color: #E18525;
+    color: white;
+   }
+
+
+        /* SECOND COLUMN BOX */
+
+
+   #box2 {
+    background-color: #036971;
+   }
+
+   #suv {
+    padding-top: 20%;
+    padding-left: 20%;
+   }
+
+   #suv-txt {
+    padding-top: 10%;
+    padding-left: 20%;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+   }
+
+   #suv-para{
+    color: white;
+    text-align: left;
+    padding-top: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+   }
+
+   #suv-btn {
+    color: #036971;
+    border-radius: 30px;
+    width: 35%;
+    padding: 3%;
+    margin: 5% 20%;
+   }
+
+   #suv-btn:hover{
+    background-color: #036971;
+    color: white;
+   }
+
+
+        /* THIRD COLUMN BOX */
+
+
+   #box3 {
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+    background-color: #01403F;
+   }
+
+   #luxury {
+    padding-top: 20%;
+    padding-left: 20%;
+   }
+
+   #lux-txt {
+    padding-top: 10%;
+    padding-left: 20%;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+   }
+
+   #lux-para{
+    color: white;
+    text-align: left;
+    padding-top: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+   }
+
+   #lux-btn {
+    color: #01403F;
+    border-radius: 30px;
+    width: 35%;
+    padding: 3%;
+    margin: 5% 20%;
+   }
+
+   #lux-btn:hover{
+    background-color: #01403F;
+    color: white;
+   }
